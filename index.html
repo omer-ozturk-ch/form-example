@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@
 <body>
     <div class="container">
         <h1>Registration Form</h1>
-        <form action="" method="post">
+        <form action="index.html" method="post">
             <fieldset>
                 <legend>CREDENTIALS</legend> <br>
                 <label for="name">Name</label>
@@ -24,13 +25,14 @@
                 <input type="date" name="birthday" id="birthday" required>
                 <br><br>
 
-                <label for="gender">Gender</label>
+                <label>Gender</label>
                 <input type="radio" name="gender" id="female">Female -
                 <input type="radio" name="gender" id="male">Male
+                
                 <br><br>
 
                 <label for="nationality" class="nationality">Please select your nationality
-                    <select name="nationality" id="nationality">Please select your nationality
+                    <select name="nationality" id="nationality">
                         <option value="Turkish">Turkish</option>
                         <option value="Swiss">Swiss</option>
                         <option value="German">German</option>
@@ -45,14 +47,14 @@
                 <br><br>
 
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password" placeholder="Please write your password">
+                <input type="password" name="password" id="password" placeholder="Please write your password" maxlength="5">
                 <br><br>
 
-                <label for="">Phone</label>
+                <label for="phone">Phone</label>
                 <input type="tel" name="phone" id="phone" placeholder="+41">
                 <br><br>
 
-                <label for="">Color</label>
+                <label for="color">Color</label>
                 <input type="color" name="color" id="color">
                 <br><br>
             </fieldset>
@@ -67,7 +69,7 @@
                 <br><br>
 
                 <label for="postcode">Post Code</label>
-                <input type="number" name="postcode" id="postcode" maxlength="4">
+                <input type="number" name="postcode" id="postcode">
                 <br><br>
 
                 <label for="canton">Canton</label>
