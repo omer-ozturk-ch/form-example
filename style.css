@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: darkcyan;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 10px;
+}
+.container {
+    width: 600px;
+    margin: 20px auto;
+    border: 5px solid grey;
+    background-color: white;
+    border-radius: 10px 60px;
+}
+label {
+    display: inline-block;
+    width: 210px;
+}
+.nationality {
+    width: 100%;
+}
+fieldset {
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.lastfield {
+    margin-bottom: 40px;
+    text-align: center;
+}
+input {
+    line-height: 1.3rem;
+}
+option {
+    line-height: 1.3rem;
+    display: inline-block;
+}
+#submit {
+    width: 100px;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+#submit:hover {
+    background-color: rgb(20, 194, 20);
+}
+#reset {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(202, 0, 0);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+}
+#reset:hover {
+    background-color: rgb(255, 0, 0);
+}
+input:focus {
+    outline-color: darkcyan;
+}
+textarea:focus {
+    outline-color: darkcyan;
+}
+input:hover {
+    border: solid grey;
+    border-radius: 5px;
+}
+textarea:hover {
+    border: solid grey;
+    border-radius: 5px;
+}
