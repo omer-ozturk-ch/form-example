@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic1</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container1">
+        <div class="container2">
+            <form action="semantic1.html" method="post">
+                <section>
+                    <div class="line"></div>
+                    <h1>Profil</h1>
+                    <h2>Hier können Sie Ihre Adress-Angaben einsehen und anpassen</h2>
+                </section>
+
+                <section>
+                    <h3>Persönliche Daten</h3>
+                    <label for="titel">Titel</label>
+                    <input type="text" name="titel" id="titel" placeholder="Dr.hc"> <br>
+
+                    <label for="vorname">Vorname</label>
+                    <input type="text" name="vorname" id="vorname" placeholder="Peter"> <br>
+
+                    <label for="nachname">Nachname</label>
+                    <input type="text" name="nachname" id="nachname" placeholder="Muster"> <br>
+
+                    <label>Geschlecht</label>
+                    <input type="radio" name="Geschlecht" id="Frau" value="Frau" class="radio">Frau
+                    <input type="radio" name="Geschlecht" id="Mann" value="Mann" class="radio">Mann <br>
+
+                    <label>Sprache</label>
+                    <input type="radio" name="language" id="deutsch" value="deutsch" class="radio">Deutsch
+                    <input type="radio" name="language" id="fransözisch" value="fransözisch" class="radio">Fransözisch
+                    <input type="radio" name="language" id="italienisch" value="italienisch" class="radio">Italienisch
+                </section>
+
+                <section>
+                    <h3>Kontaktdaten</h3>
+
+                    <label for="phone">Telefon</label>
+                    <input type="tel" name="phone" id="phone"> <br>
+
+                    <label for="mobile">Mobile</label>
+                    <input type="tel" name="mobile" id="mobile" placeholder="optional"> <br>
+
+                    <label for="hnumber">Hauptnummer</label>
+                    <input type="number" name="hnumber" id="hnumber" placeholder="optional"> <br>
+
+                    <label for="fax">Fax</label>
+                    <input type="tel" name="fax" id="fax" placeholder="optional"> <br>
+
+                    <label for="email1">Mail 1</label>
+                    <input type="email" name="email1" id="email1"> <br>
+
+                    <label for="email2">Mail 2</label>
+                    <input type="email" name="email2" id="email2" placeholder="optional"> <br>
+                </section>
+
+                <section>
+                    <h3>Adressdaten</h3>
+
+                    <label for="firma">Firma</label>
+                    <input type="text" name="firma" id="firma"> <br>
+
+                    <label for="homepage">Homepage</label>
+                    <input type="text" name="homepage" id="homepage" placeholder="optional"> <br>
+
+                    <label for="adresseh">Adresse / Haus Nr</label>
+                    <input type="text" name="adresseh" id="adresseh" placeholder="optional" class="together">
+                    <input type="number" name="hausNr" id="hausNr" class="together"> <br>
+
+                    <label for="Zusadresse">Zusatz Adresse</label>
+                    <input type="text" name="Zusadresse" id="Zusadresse" placeholder="optional"> <br>
+
+                    <label for="postfach">Postfach</label>
+                    <input type="number" name="postfach" id="postfach" placeholder="optional"> <br>
+
+                    <label for="plzort">PLZ / Ort</label>
+                    <input type="text" name="plz" id="plzort" placeholder="optional" class="together">
+                    <input type="number" name="ort" id="ort" class="together"> <br>
+
+                    <label for="kanton">Kanton / Land</label>
+                    <input type="text" name="kanton" id="kanton" class="together">
+                    <input type="text" name="land" id="land" class="together"> <br>
+                </section> <br><br>
+
+                <input type="submit" class="submit" value="Speichern">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
